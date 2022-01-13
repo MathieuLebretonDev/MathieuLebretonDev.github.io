@@ -29,11 +29,13 @@ En-tête
 
 .title_username {
 
-    /*
-    Add animation typewriting
-    */
-
     color: goldenrod;
+    display: inline-block;
+
+    /*
+    Add animation
+    */
+    
 }
 
 /*
@@ -62,7 +64,6 @@ Intro
 .intro_highlight {
     color: goldenrod;
     font-weight: 500;
-    /* text-transform: uppercase; */
     letter-spacing: 0.05em;
 }
 
@@ -71,8 +72,12 @@ Timeline
 */
 
 .timeline {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
+    padding: 2.5em;
+    background-color: beige;
+    border-radius: 30px;
+    text-align: center;
 }
 
 /*
@@ -84,18 +89,16 @@ Individual cards
 }
 
 .card--title {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .card--descri {
-    text-align: justify;
+    margin-top: -1.5em;
 }
 
 .descri_highlight {
     color: goldenrod;
     font-weight: 500;
-    font-size: 0.9em;
-    text-transform: uppercase;
 }
 
 /*
@@ -103,7 +106,8 @@ Tags & Icons
 */
 
 .card--tags {
-    margin: 0.5em 0em;
+    margin: 1.5em 0em;
+    /* border: 1px solid black; */
 }
 
 .tag {
@@ -113,14 +117,16 @@ Tags & Icons
     text-transform: uppercase;
     font-size: 0.7em;
 
-    margin-bottom: 0.5em;
+    margin: 0em auto 1em auto;
     padding: 0.5em;
     display: table;
 }
 
 .tags_img {
-    margin-bottom: 0.5em;
-    width: 2.5em;
+    margin-bottom: 1em;
+    margin-right: 0.8em;
+    width: 3.5em;
+    /* filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(45deg) brightness(97%) contrast(103%); */
 }
 
 .skill {
@@ -137,7 +143,6 @@ Tags & Icons
 
 /* --------------------------------------
 Individual Icons
-*/
 
 .react {
     filter: invert(67%) sepia(74%) saturate(306%) hue-rotate(150deg) brightness(98%) contrast(101%);
@@ -178,3 +183,5 @@ Individual Icons
 .aid {
     filter: invert(39%) sepia(64%) saturate(5151%) hue-rotate(326deg) brightness(101%) contrast(102%);
 }
+
+*/
