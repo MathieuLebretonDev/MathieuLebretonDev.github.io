@@ -1,0 +1,180 @@
+/*
+Font: Roboto 
+font-family: 'Roboto', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -------------------------------
+En-tête
+*/
+
+.header {
+    margin: 5em auto;
+    width: 60%;
+
+    text-align: center;
+}
+
+.header--title {
+    font-size: 5em;
+    letter-spacing: -0.05em;
+    margin-bottom: 2rem;
+}
+
+.title_username {
+
+    /*
+    Add animation typewriting
+    */
+
+    color: goldenrod;
+}
+
+/*
+Sous-titre
+*/
+
+.header--subtitle {
+    font-size: 2.5em;
+}
+
+.subtitle_highlight {
+    color: goldenrod;
+}
+
+/*
+Intro
+*/
+
+.header--intro {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1em;
+    margin: 2rem 0rem;
+}
+
+.intro_highlight {
+    color: goldenrod;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.05em;
+}
+
+/* -------------------------------
+Timeline
+*/
+
+.timeline {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*
+Individual cards
+*/
+
+.timeline--card {
+    margin-bottom: 1.5em;
+}
+
+.card--title {
+    font-size: 1.5em;
+}
+
+.card--descri {
+    text-align: justify;
+}
+
+.descri_highlight {
+    color: goldenrod;
+    font-weight: 500;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+/*
+Tags & Icons
+*/
+
+.card--tags {
+    margin: 0.5em 0em;
+}
+
+.tag {
+    color: white;
+    border-radius: 5px;
+
+    text-transform: uppercase;
+    font-size: 0.7em;
+
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    display: table;
+}
+
+.tags_img {
+    margin-bottom: 0.5em;
+    width: 2.5em;
+}
+
+.skill {
+    background-color: red;
+}
+
+.achievement {
+    background-color: green;
+}
+
+.locked {
+    background-color: gray;
+}
+
+/* --------------------------------------
+Individual Icons
+*/
+
+.react {
+    filter: invert(67%) sepia(74%) saturate(306%) hue-rotate(150deg) brightness(98%) contrast(101%);
+}
+
+.html5 {
+    filter: invert(36%) sepia(39%) saturate(2462%) hue-rotate(345deg) brightness(95%) contrast(92%);
+}
+
+.css3 {
+    filter: invert(33%) sepia(42%) saturate(2078%) hue-rotate(179deg) brightness(95%) contrast(88%);
+}
+
+.javascript {
+    filter: invert(87%) sepia(63%) saturate(2933%) hue-rotate(339deg) brightness(101%) contrast(94%);
+}
+
+.nodejs {
+    filter: invert(44%) sepia(17%) saturate(5608%) hue-rotate(90deg) brightness(94%) contrast(60%);
+}
+
+.sql {
+    filter: invert(37%) sepia(29%) saturate(3231%) hue-rotate(207deg) brightness(92%) contrast(91%);
+}
+
+.github {
+    filter: invert(5%) sepia(2%) saturate(729%) hue-rotate(314deg) brightness(114%) contrast(93%);
+}
+
+.aps {
+    filter: invert(54%) sepia(40%) saturate(2269%) hue-rotate(182deg) brightness(102%) contrast(101%); 
+}
+
+.ai {
+    filter: invert(66%) sepia(95%) saturate(2662%) hue-rotate(359deg) brightness(102%) contrast(106%);
+}
+
+.aid {
+    filter: invert(39%) sepia(64%) saturate(5151%) hue-rotate(326deg) brightness(101%) contrast(102%);
+}
