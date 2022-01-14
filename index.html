@@ -6,13 +6,16 @@
     <link href="./css/style.css" rel="stylesheet" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Who's Mathieu?</title>
+    <title>En travaux, regardez pas!</title>
   </head>
 
   <body>
-
     <header class="header">
-      <img src="./assets/imgs/undraw_developer_activity_re_39tg.svg" alt="" class="header--illu">
+      <img
+        src="./assets/imgs/undraw_developer_activity_re_39tg.svg"
+        alt=""
+        class="header--illu"
+      />
 
       <section class="header_content">
         <h1 class="header--title">
@@ -27,249 +30,270 @@
           <span class="intro_highlight">Île-De-France</span>, France, who
           decided to take the bull by the horn and turn his life around by
           jumping head-first into the fascinating world of
-          <span class="intro_highlight">Web Development</span>. 
-          <br>Glasses and fingers at the ready, let's get coding!
+          <span class="intro_highlight">Web Development</span>. <br />Glasses
+          and fingers at the ready, let's get coding!
         </div>
         <div class="header--scroll">
           <p class="scroll_txt">Timeline</p>
-          <div class="scroll_arrow"></div>
+          <a href="#timeline"><div class="scroll_arrow"></div></a>
         </div>
       </section>
     </header>
 
     <main class="main">
-      <div class="timeline">
+      <div class="timeline" id="timeline">
         <section class="timeline--card">
-          <h3 class="card--title">2022: New year, new goals!</h3>
+          <div class="card--content c-right">
+            <h3 class="card--title">2022: New year, new goals!</h3>
+            <p class="card--descri">
+              We're done with the basics, time to focus on
+              <span class="descri_highlight">React.</span> The final stretch of
+              the journey, culminating in the almighty
+              <span class="descri_highlight">profesionnal title</span>, and
+              surely the beggining of yet another one. Maybe at your side?
+            </p>
+          </div>
+
           <div class="card--tags">
             <div class="tag skill locked">New skill(s) locked</div>
-            <img
-              src="./assets/imgs/react.svg"
-              alt="React"
-              class="tags_img react"
-            />
+            <div class="tag_content">
+              <img
+                src="./assets/imgs/react.svg"
+                alt="React"
+                class="tags_img react"
+              />
+            </div>
             <div class="tag achievement locked">Achievement locked</div>
-            <img
-              src="./assets/imgs/reshot-icon-e-learning-graduation-6KEN9QF7CU.svg"
-              alt="Titre Pro"
-              class="tags_img"
-            />
+            <div class="tag_content">
+              <img
+                src="./assets/imgs/reshot-icon-e-learning-graduation-6KEN9QF7CU.svg"
+                alt="Titre Pro"
+                class="tags_img"
+              />
+            </div>
           </div>
-          <p class="card--descri">
-            We're done with the basics, time to focus on
-            <span class="descri_highlight">React.</span> The final stretch of
-            the journey, culminating in the almighty
-            <span class="descri_highlight">profesionnal title</span>, and surely
-            the beggining of yet another one. Maybe at your side?
-          </p>
         </section>
 
         <section class="timeline--card">
-          <h3 class="card--title">2021: New begginings</h3>
+          <div class="card--tags">
+            <div class="tag skill">New skill(s) unlocked</div>
+            <div class="tag_content">
+              <img
+                src="./assets/imgs/html5.svg"
+                alt="HTML"
+                class="tags_img html5"
+              />
+
+              <div class="modal hidden">
+                <h4 class="modal_title">New Skill : HTML</h4>
+                <p class="modal_content">
+                  Can type the meta *without* using Emmett!
+                </p>
+              </div>
+
+              <img
+                src="./assets/imgs/css3.svg"
+                alt="CSS"
+                class="tags_img css3"
+              />
+
+              <div class="modal hidden">
+                <h4 class="modal_title">New Skill : CSS</h4>
+                <p class="modal_content">
+                  Knows how to vertically align a div without looking at Stack
+                  Overflow.
+                </p>
+              </div>
+
+              <img
+                src="./assets/imgs/javascript.svg"
+                alt="JS"
+                class="tags_img javascript"
+              />
+
+              <div class="modal hidden">
+                <h4 class="modal_title">New Skill : Javascript</h4>
+                <p class="modal_content">Escaped callback hell.</p>
+              </div>
+
+              <img
+                src="./assets/imgs/nodedotjs.svg"
+                alt="NodeJS"
+                class="tags_img nodejs"
+              />
+
+              <!-- Modal NodeJs -->
+
+              <img
+                src="./assets/imgs/postgresql.svg"
+                alt="SQL"
+                class="tags_img sql"
+              />
+
+              <div class="modal hidden">
+                <h4 class="modal_title">New Skill : Postgresql</h4>
+                <p class="modal_content">
+                  Did *NOT* accidentally dropped an entire database (yet).
+                </p>
+              </div>
+
+              <img
+                src="./assets/imgs/github.svg"
+                alt="GitHub"
+                class="tags_img github"
+              />
+            </div>
+
+            <div class="tag achievement">Achievement unlocked</div>
+            <div class="tag_content">
+              <img
+                src="./assets/imgs/logo-short-cream.svg"
+                alt="O'Clock Logo"
+                class="tags_img"
+              />
+            </div>
+          </div>
+
+          <div class="card--content c-left">
+            <h3 class="card--title">2021: New begginings</h3>
+            <p class="card--descri">
+              We take the bull by the horns, and I put my time in isolation to
+              good use. A project of
+              <span class="descri_highlight">profesionnal transition</span>
+              opens the door to the
+              <span class="descri_highlight">O'Clock school</span>, a six-months
+              <span class="descri_highlight">remote course</span> teaching us
+              how to become a competent
+              <span class="descri_highlight">web developper.</span>
+            </p>
+          </div>
+        </section>
+
+        <section class="timeline--card">
+          <div class="card--content c-right">
+            <h3 class="card--title">2017: Magic Keeper</h3>
+            <p class="card--descri">
+              Life takes another trajectory. Putting Design aside for a time, I
+              seek a job to improve my soft and relational skills. On the dawn
+              of their 25th anniversary, I'm hired at
+              <span class="descri_highlight">Disneyland Paris</span>, in their
+              <span class="descri_highlight">Merchandising</span> department.
+              After months of experience on the field, I got trained as a
+              <span class="descri_highlight">duty</span>, which allowed me to
+              gain new and bigger responsabilities, including
+              <span class="descri_highlight">team management</span>. I remain
+              employed there to this day.
+            </p>
+          </div>
 
           <div class="card--tags">
             <div class="tag skill">New skill(s) unlocked</div>
-            <img
-              src="./assets/imgs/html5.svg"
-              alt="HTML"
-              class="tags_img html5"
-            />
-
-            <div class="modal hidden">
-              <h4 class="modal_title">
-                New Skill : HTML
-              </h4>
-              <p class="modal_content">
-                Can type the meta *without* using Emmett!
-              </p>
+            <div class="tag_content">
+              <img
+                src="./assets/imgs/reshot-icon-money-sale-VAYM4DB5TH.svg"
+                alt="Vente"
+                class="tags_img"
+              />
+              <img
+                src="./assets/imgs/reshot-icon-clients-7E8RTLJ9KW.svg"
+                alt="RapportClient"
+                class="tags_img"
+              />
+              <img
+                src="./assets/imgs/reshot-icon-teamwork-FZGD4TML2W.svg"
+                alt="Team Work"
+                class="tags_img"
+              />
+              <img
+                src="./assets/imgs/reshot-icon-team-meeting-8LFESTR2KN.svg"
+                alt="Team Management"
+                class="tags_img"
+              />
+              <img
+                src="./assets/imgs/United-kingdom_flag_icon_round.svg"
+                alt="Anglais"
+                class="tags_img"
+              />
             </div>
-
-            <img src="./assets/imgs/css3.svg" alt="CSS" class="tags_img css3" />
-
-            <div class="modal hidden">
-              <h4 class="modal_title">
-                New Skill : CSS
-              </h4>
-              <p class="modal_content">
-                Knows how to vertically align a div without looking at Stack Overflow.
-              </p>
-            </div>
-
-            <img
-              src="./assets/imgs/javascript.svg"
-              alt="JS"
-              class="tags_img javascript"
-            />
-
-            <div class="modal hidden">
-              <h4 class="modal_title">
-                New Skill : Javascript
-              </h4>
-              <p class="modal_content">
-                Escaped callback hell.
-              </p>
-            </div>
-
-            <img
-              src="./assets/imgs/nodedotjs.svg"
-              alt="NodeJS"
-              class="tags_img nodejs"
-            />
-
-            <!-- Modal NodeJs -->
-
-            <img
-              src="./assets/imgs/postgresql.svg"
-              alt="SQL"
-              class="tags_img sql"
-            />
-
-            <div class="modal hidden">
-              <h4 class="modal_title">
-                New Skill : Postgresql
-              </h4>
-              <p class="modal_content">
-                Did *NOT* accidentally dropped an entire database (yet).
-              </p>
-            </div>
-
-            <img
-              src="./assets/imgs/github.svg"
-              alt="GitHub"
-              class="tags_img github"
-            />
 
             <div class="tag achievement">Achievement unlocked</div>
-            <img
-              src="./assets/imgs/logo-short-cream.svg"
-              alt="O'Clock Logo"
-              class="tags_img"
-            />
+            <div class="tag_content">
+              <img
+                src="./assets/imgs/reshot-icon-mouse-face-WYS3J27UGQ.svg"
+                alt="Cast Member"
+                class="tags_img"
+              />
+            </div>
           </div>
-
-          <p class="card--descri">
-            We take the bull by the horns, and I put my time in isolation to
-            good use. A project of
-            <span class="descri_highlight">profesionnal transition</span> opens
-            the door to the
-            <span class="descri_highlight">O'Clock school</span>, a six-months
-            <span class="descri_highlight">remote course</span> teaching us how
-            to become a competent
-            <span class="descri_highlight">web developper.</span>
-          </p>
         </section>
 
         <section class="timeline--card">
-          <h3 class="card--title">2017: Magic Keeper</h3>
+          <div class="card--tags">
+            <div class="tag achievement">Achievement unlocked</div>
+            <div class="tag_content">
+              <img
+                src="./assets/imgs/reshot-icon-graduation-6NEZXY82M3.svg"
+                alt="BTS"
+                class="tags_img"
+              />
+            </div>
+          </div>
+
+          <div class="card--content c-left">
+            <h3 class="card--title">2015: Graphic Design is my passion</h3>
+            <p class="card--descri">
+              We follow the path ahead with a two year post-bac degree in
+              <span class="descri_highlight">Graphic Design</span>, specialising
+              in printed medias.
+            </p>
+          </div>
+        </section>
+
+        <section class="timeline--card">
+          <div class="card--content c-right">
+            <h3 class="card--title">2013: Hello (Real) World?</h3>
+            <p class="card--descri">
+              Ah, to be young and to have the world opening up! With the
+              <span class="descri_highlight">Baccalauréat</span> in hand, I
+              embark for my first profesionnal experiences : three internships
+              (one in a printing company, two in my hometown town hall), as a
+              <span class="descri_highlihgt">graphic integrater</span> and a
+              two-month contract in the communication department of a research
+              center about environment, mobility and infrastructure, as the
+              <span class="descri_highlight">department leader's assistant</span
+              >.
+            </p>
+          </div>
 
           <div class="card--tags">
             <div class="tag skill">New skill(s) unlocked</div>
-            <img
-              src="./assets/imgs/reshot-icon-money-sale-VAYM4DB5TH.svg"
-              alt="Vente"
-              class="tags_img"
-            />
-            <img
-              src="./assets/imgs/reshot-icon-clients-7E8RTLJ9KW.svg"
-              alt="RapportClient"
-              class="tags_img"
-            />
-            <img
-              src="./assets/imgs/reshot-icon-teamwork-FZGD4TML2W.svg"
-              alt="Team Work"
-              class="tags_img"
-            />
-            <img
-              src="./assets/imgs/reshot-icon-team-meeting-8LFESTR2KN.svg"
-              alt="Team Management"
-              class="tags_img"
-            />
-            <img
-              src="./assets/imgs/United-kingdom_flag_icon_round.svg"
-              alt="Anglais"
-              class="tags_img"
-            />
+            <div class="tag_content">
+              <img
+                src="./assets/imgs/adobephotoshop.svg"
+                alt="Photoshop"
+                class="tags_img aps"
+              />
+              <img
+                src="./assets/imgs/adobeillustrator.svg"
+                alt="Illustrator"
+                class="tags_img ai"
+              />
+              <img
+                src="./assets/imgs/adobeindesign.svg"
+                alt="InDesign"
+                class="tags_img aid"
+              />
+            </div>
 
             <div class="tag achievement">Achievement unlocked</div>
-            <img
-              src="./assets/imgs/reshot-icon-mouse-face-WYS3J27UGQ.svg"
-              alt="Cast Member"
-              class="tags_img"
-            />
+            <div class="tag_content">
+              <img
+                src="./assets/imgs/reshot-icon-education-YG2XF5CTUN.svg"
+                alt="Bac"
+                class="tags_img"
+              />
+            </div>
           </div>
-
-          <p class="card--descri">
-            Life takes another trajectory. Putting Design aside for a time, I
-            seek a job to improve my soft and relational skills. On the dawn of
-            their 25th anniversary, I'm hired at
-            <span class="descri_highlight">Disneyland Paris</span>, in their
-            <span class="descri_highlight">Merchandising</span> department.
-            After months of experience on the field, I got trained as a
-            <span class="descri_highlight">duty</span>, which allowed me to gain
-            new and bigger responsabilities, including
-            <span class="descri_highlight">team management</span>. I remain
-            employed there to this day.
-          </p>
-        </section>
-
-        <section class="timeline--card">
-          <h3 class="card--title">2015: Graphic Design is my passion</h3>
-
-          <div class="card--tags">
-            <div class="tag achievement">Achievement unlocked</div>
-            <img
-              src="./assets/imgs/reshot-icon-graduation-6NEZXY82M3.svg"
-              alt="BTS"
-              class="tags_img"
-            />
-          </div>
-
-          <p class="card--descri">
-            We follow the path ahead with a two year post-bac degree in
-            <span class="descri_highlight">Graphic Design</span>, specialising
-            in printed medias.
-          </p>
-        </section>
-
-        <section class="timeline--card">
-          <h3 class="card--title">2013: Hello (Real) World?</h3>
-
-          <div class="card--tags">
-            <div class="tag skill">New skill(s) unlocked</div>
-            <img
-              src="./assets/imgs/adobephotoshop.svg"
-              alt="Photoshop"
-              class="tags_img aps"
-            />
-            <img
-              src="./assets/imgs/adobeillustrator.svg"
-              alt="Illustrator"
-              class="tags_img ai"
-            />
-            <img
-              src="./assets/imgs/adobeindesign.svg"
-              alt="InDesign"
-              class="tags_img aid"
-            />
-
-            <div class="tag achievement">Achievement unlocked</div>
-            <img
-              src="./assets/imgs/reshot-icon-education-YG2XF5CTUN.svg"
-              alt="Bac"
-              class="tags_img"
-            />
-          </div>
-
-          <p class="card--descri">
-            Ah, to be young and to have the world opening up! With the
-            <span class="descri_highlight">Baccalauréat</span> in hand, I embark
-            for my first profesionnal experiences : three internships (one in a
-            printing company, two in my hometown town hall), as a
-            <span class="descri_highlihgt">graphic integrater</span> and a
-            two-month contract in the communication department of a research
-            center about environment, mobility and infrastructure, as the
-            <span class="descri_highlight">department leader's assistant</span>.
-          </p>
         </section>
       </div>
     </main>
@@ -279,6 +303,5 @@
     </footer>
 
     <script type="text/javascript" src="./js/script.js"></script>
-
   </body>
 </html>

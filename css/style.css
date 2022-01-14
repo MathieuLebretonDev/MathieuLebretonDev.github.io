@@ -7,6 +7,7 @@ font-family: 'Roboto', sans-serif;
 
 html {
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -35,6 +36,10 @@ En-tête
     top: 40%;
     left: 47%;
 }
+
+/*
+Titre
+*/
 
 .header--title {
     font-size: 5.5em;
@@ -160,15 +165,14 @@ Timeline
 */
 
 .timeline {
-    width: 45%;
+    width: 35%;
     margin: 0 auto;
-    padding: 2.5em;
+    padding: 2.5em 0;
     background-color: beige;
     border-radius: 30px;
-    text-align: center;
 
     position: relative;
-    left: 19%;
+    left: 24%;
 }
 
 /*
@@ -176,20 +180,56 @@ Individual cards
 */
 
 .timeline--card {
-    margin-bottom: 1.5em;
+    /* border: 2px solid blue; */
+    width: 115%;
+
+    position: relative;
+    right: 3em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+.card--content {
+    padding: 2em;
+    /* border: 2px solid green; */
+    width: 50%;
+
+    color: white;
+
+    background-color: gray;
+    border-radius: 25px;
+}
+
+.c-right {
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);    
+}
+
+.c-left {
+    background-color: #FAD961;
+    background-image: linear-gradient(270deg, #FAD961 0%, #F76B1C 100%);
 }
 
 .card--title {
-    font-size: 2em;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
 }
 
 .card--descri {
-    margin-top: -1.5em;
+    font-size: 0.9em;
+    text-align: justify;
 }
 
 .descri_highlight {
-    color: goldenrod;
+    color: rgb(124, 94, 19);
+    font-size: 0.9em;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
 /*
@@ -197,8 +237,8 @@ Tags & Icons
 */
 
 .card--tags {
-    margin: 1.5em 0em;
-    /* border: 1px solid black; */
+    /* border: 2px solid red; */
+    width: 50%;
 }
 
 .tag {
@@ -213,10 +253,18 @@ Tags & Icons
     display: table;
 }
 
+.tag_content {
+    padding: 0em 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .tags_img {
     margin-bottom: 1em;
     margin-right: 0.8em;
-    width: 3.5em;
+    width: 3em;
     /* filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(45deg) brightness(97%) contrast(103%); */
 }
 
